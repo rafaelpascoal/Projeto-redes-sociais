@@ -41,3 +41,23 @@ iframe#tela {
     width: 265px;
     height: 471px;
 }
+
+section#redes-sociais > a > img {
+    width: 50px; /*Diminuir os quadrados das logos*/
+    margin:10px; /*Separar os quadrados das logos*/
+    border-radius: 50%; /*Transformar os quadrados das logos em círculos (50% é metade da imagem)*/
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box; /*Para que, quando posicionamos o mouse em cima de um dos ícones, os outros não se mexam (transforma o border do img:hover integrado à imagem)*/
+}
+
+section#redes-sociais {
+    text-align: right; /*Para colocar os círculos das logos do lado direito da tela*/
+}
+
+section#redes-sociais img:hover {
+    border: 3px solid rgb(255, 255, 255); /*Para criar um círculo branco quando posicionamos o mouse em cima do ícone*/
+    transform:translate(-3px, -3px); /*Para o ícone saltar, movimentar para o lado e para cima*/
+    box-shadow: 5px 5px 10px black; /*Para que se mantenha uma sombra embaixo do ícone quando ele se levantar*/
+    transition: transform 0.3s, border 0.5s;
+
+}
