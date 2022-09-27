@@ -1,0 +1,30 @@
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar { /*Para esconder as barras de rolagem*/
+    width: 0px;
+    height: 0px;
+}
+
+img { /*Para que a imagem ocupe 100% da tela*/
+    width: 100vw;
+}
+a{
+    display:block; /*Para mostrar o acesse embaixo da página*/
+    background-color: darkred;
+    color:white;
+    padding:20px;
+    text-align: center; /*Para centralizar o texto*/
+    font-weight: bolder; /*Para que as letras fiquem negrito*/
+    text-decoration: none; /*Para que não haja decoração de underline e outras*/
+}
+a:hover {
+    text-decoration: underline;
+    background-color: red;
+    
+}
+

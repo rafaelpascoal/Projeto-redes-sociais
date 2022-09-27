@@ -58,6 +58,6 @@ section#redes-sociais img:hover {
     border: 3px solid rgb(255, 255, 255); /*Para criar um círculo branco quando posicionamos o mouse em cima do ícone*/
     transform:translate(-3px, -3px); /*Para o ícone saltar, movimentar para o lado e para cima*/
     box-shadow: 5px 5px 10px black; /*Para que se mantenha uma sombra embaixo do ícone quando ele se levantar*/
-    transition: transform 0.3s, border 0.5s;
+    transition: transform 0.3s, border 0.5s; /*Para que a movimentação do ícone seja realizada como um movimento orgânico em 0.3 segundos e a sombra branca (border) aparecendo em 0.5 segundos. */
 
 }
